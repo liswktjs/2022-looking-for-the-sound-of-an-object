@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_color_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "button {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 300px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/button.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB","sourcesContent":["@import url(color.css);\n\nbutton {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 300px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "button {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/button.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB","sourcesContent":["@import url(color.css);\n\nbutton {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -88,7 +88,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_button_css__WEBPA
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_recharge_css__WEBPACK_IMPORTED_MODULE_4__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_purchase_css__WEBPACK_IMPORTED_MODULE_5__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".app {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  background-color: var(--app-background-color);\n}\n\n.hide {\n  display: none;\n  visibility: none;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nnav {\n  display: flex;\n  justify-content: center;\n}\n\n.purchase-coffee {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.purchase-coffee-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  justify-items: center;\n}\n\n.recharge-material {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.now-material-table-title {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.now-material-quantity-table {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.snack-bar {\n  display: flex;\n  flex-direction: row;\n  position: fixed;\n  bottom: 10%;\n  left: 50%;\n\n  visibility: hidden;\n  transform: translateX(-50%) translate3d(0, 100%, 0);\n\n  background-color: var(--snackbar-background-color);\n  border-style: none;\n  border-radius: 4px;\n\n  width: fit-content;\n  height: fit-content;\n  padding: 10px;\n  color: var(--snackbar-font-color);\n  font-size: 18px;\n}\n\n.snack-bar.is-active {\n  visibility: visible;\n  transform: translateX(-50%) translate3d(0, 0, 0);\n  transition: transform 300ms ease-in-out;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/index.css"],"names":[],"mappings":"AAKA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,6CAA6C;AAC/C;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,UAAU;EACV,QAAQ;EACR,SAAS;AACX;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,WAAW;EACX,SAAS;;EAET,kBAAkB;EAClB,mDAAmD;;EAEnD,kDAAkD;EAClD,kBAAkB;EAClB,kBAAkB;;EAElB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;EACb,iCAAiC;EACjC,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,gDAAgD;EAChD,uCAAuC;AACzC","sourcesContent":["@import url(color.css);\n@import url(button.css);\n@import url(recharge.css);\n@import url(purchase.css);\n\n.app {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  background-color: var(--app-background-color);\n}\n\n.hide {\n  display: none;\n  visibility: none;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nnav {\n  display: flex;\n  justify-content: center;\n}\n\n.purchase-coffee {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.purchase-coffee-container {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  justify-items: center;\n}\n\n.recharge-material {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.now-material-table-title {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.now-material-quantity-table {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.snack-bar {\n  display: flex;\n  flex-direction: row;\n  position: fixed;\n  bottom: 10%;\n  left: 50%;\n\n  visibility: hidden;\n  transform: translateX(-50%) translate3d(0, 100%, 0);\n\n  background-color: var(--snackbar-background-color);\n  border-style: none;\n  border-radius: 4px;\n\n  width: fit-content;\n  height: fit-content;\n  padding: 10px;\n  color: var(--snackbar-font-color);\n  font-size: 18px;\n}\n\n.snack-bar.is-active {\n  visibility: visible;\n  transform: translateX(-50%) translate3d(0, 0, 0);\n  transition: transform 300ms ease-in-out;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".app {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  background-color: var(--app-background-color);\n}\n\n.hide {\n  display: none;\n  visibility: none;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nnav {\n  display: flex;\n  justify-content: center;\n}\n\n.purchase-drink {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.purchase-drink-quantity-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.purchase-drink-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  justify-items: center;\n}\n\n.recharge-material {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.now-material-table-title {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.now-material-quantity-table {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.snack-bar {\n  display: flex;\n  flex-direction: row;\n  position: fixed;\n  bottom: 10%;\n  left: 50%;\n\n  visibility: hidden;\n  transform: translateX(-50%) translate3d(0, 100%, 0);\n\n  background-color: var(--snackbar-background-color);\n  border-style: none;\n  border-radius: 4px;\n\n  width: fit-content;\n  height: fit-content;\n  padding: 10px;\n  color: var(--snackbar-font-color);\n  font-size: 18px;\n}\n\n.snack-bar.is-active {\n  visibility: visible;\n  transform: translateX(-50%) translate3d(0, 0, 0);\n  transition: transform 300ms ease-in-out;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/index.css"],"names":[],"mappings":"AAKA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,6CAA6C;AAC/C;;AAEA;EACE,aAAa;EACb,gBAAgB;EAChB,UAAU;EACV,QAAQ;EACR,SAAS;AACX;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,qBAAqB;AACvB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,sBAAsB;AACxB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;AACzB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,WAAW;EACX,SAAS;;EAET,kBAAkB;EAClB,mDAAmD;;EAEnD,kDAAkD;EAClD,kBAAkB;EAClB,kBAAkB;;EAElB,kBAAkB;EAClB,mBAAmB;EACnB,aAAa;EACb,iCAAiC;EACjC,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,gDAAgD;EAChD,uCAAuC;AACzC","sourcesContent":["@import url(color.css);\n@import url(button.css);\n@import url(recharge.css);\n@import url(purchase.css);\n\n.app {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  background-color: var(--app-background-color);\n}\n\n.hide {\n  display: none;\n  visibility: none;\n  opacity: 0;\n  width: 0;\n  height: 0;\n}\n\nheader {\n  display: flex;\n  justify-content: center;\n}\n\nnav {\n  display: flex;\n  justify-content: center;\n}\n\n.purchase-drink {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n}\n\n.purchase-drink-quantity-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.purchase-drink-container {\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  justify-items: center;\n}\n\n.recharge-material {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n}\n\n.now-material-table-title {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.now-material-quantity-table {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n}\n\n.snack-bar {\n  display: flex;\n  flex-direction: row;\n  position: fixed;\n  bottom: 10%;\n  left: 50%;\n\n  visibility: hidden;\n  transform: translateX(-50%) translate3d(0, 100%, 0);\n\n  background-color: var(--snackbar-background-color);\n  border-style: none;\n  border-radius: 4px;\n\n  width: fit-content;\n  height: fit-content;\n  padding: 10px;\n  color: var(--snackbar-font-color);\n  font-size: 18px;\n}\n\n.snack-bar.is-active {\n  visibility: visible;\n  transform: translateX(-50%) translate3d(0, 0, 0);\n  transition: transform 300ms ease-in-out;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".purchase-coffee {\n  margin-top: 20px;\n}\n\n.purchase-coffee-container {\n  margin-bottom: 20px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/purchase.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;AAClB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,gBAAgB;AAClB","sourcesContent":[".purchase-coffee {\n  margin-top: 20px;\n}\n\n.purchase-coffee-container {\n  margin-bottom: 20px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.purchase-drink-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/purchase.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,gBAAgB;AAClB","sourcesContent":[".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.purchase-drink-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-coffee-beans-container {\n  margin-bottom: 20px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/recharge.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,yBAAyB;EACzB,gBAAgB;EAChB,2BAA2B;EAC3B,4BAA4B;EAC5B,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":[".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-coffee-beans-container {\n  margin-bottom: 20px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/recharge.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,yBAAyB;EACzB,gBAAgB;EAChB,2BAA2B;EAC3B,4BAA4B;EAC5B,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":[".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -678,37 +678,54 @@ class CoffeeMachineComponent {
   }
 
   initDOM() {
-    this.$purchaseCoffee = document.querySelector('.purchase-coffee');
+    this.$purchaseCoffee = document.querySelector('.purchase-drink');
     this.$rechargeMaterial = document.querySelector('.recharge-material');
+    this.$nav = document.querySelector('nav');
     this.$rechargeTab = document.querySelector('#recharge-material-tab');
     this.$purchaseTab = document.querySelector('#purchase-coffee-tab');
-    this.$purchaseCoffeeQuantityElement = document.querySelector('#purchase-coffee-quantity');
-    this.$purchaseCoffeeButton = document.querySelector('#purchase-coffee');
+    this.$purchaseDrinkButtonContainer = document.querySelector('.purchase-drink-container');
+    this.$purchasableEspressoQuantityElement = document.querySelector(
+      '#purchaseable-espresso-quantity',
+    );
+    this.$purchasableAmericanoQuantityElement = document.querySelector(
+      '#purchaseable-americano-quantity',
+    );
+    this.$purchaseableCafeLatteQuantityElement = document.querySelector(
+      '#purchaseable-cafe-latte-quantity',
+    );
+    this.$purchaseableMilkQuantityElement = document.querySelector('#purchaseable-milk-quantity');
     this.$coffeeBeanQuantityElement = document.querySelector('#coffee-beans-quantity');
     this.$cupQuantityElement = document.querySelector('#cups-quantity');
-    this.$rechargeCoffeeBeanButton = document.querySelector('#recharge-coffee-beans-button');
-    this.$rechargeCupButton = document.querySelector('#recharge-cups-button');
+    this.$milkQuantityElement = document.querySelector('#milk-quantity');
+    this.$rechargeDrinkButtonContainer = document.querySelector('.recharge-drink-container');
   }
 
-  showPurchasableCoffeeQuantity() {
+  showPurchasableDrinkQuantity() {
     const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
-    let quantity = 0;
 
     if (materials !== 0) {
-      const { coffeeBean, cup } = materials;
-      quantity = Math.min(coffeeBean, cup);
+      const { coffeeBean, cup, milk } = materials;
+      const espressoQuantity = Math.min(coffeeBean, cup);
+      const americanoQuantity = Math.min(coffeeBean, cup);
+      const cafeLatteQuantity = Math.min(coffeeBean, cup, milk);
+      const milkQuantity = Math.min(milk, cup);
+
+      this.$purchasableEspressoQuantityElement.textContent = espressoQuantity;
+      this.$purchasableAmericanoQuantityElement.textContent = americanoQuantity;
+      this.$purchaseableCafeLatteQuantityElement.textContent = cafeLatteQuantity;
+      this.$purchaseableMilkQuantityElement.textContent = milkQuantity;
     }
-    this.$purchaseCoffeeQuantityElement.textContent = quantity;
   }
 
   showNowMaterialQuantity() {
     const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
 
     if (materials !== 0) {
-      const { coffeeBean, cup } = materials;
+      const { coffeeBean, cup, milk } = materials;
 
       this.$coffeeBeanQuantityElement.textContent = coffeeBean;
       this.$cupQuantityElement.textContent = cup;
+      this.$milkQuantityElement.textContent = milk;
     }
   }
 
@@ -719,7 +736,7 @@ class CoffeeMachineComponent {
     this.$purchaseTab.classList.add('is-active');
     this.$rechargeTab.classList.remove('is-active');
 
-    this.showPurchasableCoffeeQuantity();
+    this.showPurchasableDrinkQuantity();
   }
 
   showRechargeMaterialComponent() {
@@ -733,42 +750,76 @@ class CoffeeMachineComponent {
   }
 
   bindEventListener() {
-    this.$purchaseTab.addEventListener('click', this.onPurchaseTabClick);
-    this.$rechargeTab.addEventListener('click', this.onRechargeTabClick);
-    this.$purchaseCoffeeButton.addEventListener('click', this.onPurchaseCoffeeButtonClick);
-    this.$rechargeCoffeeBeanButton.addEventListener('click', this.onRechargeCoffeeBeanButtonClick);
-    this.$rechargeCupButton.addEventListener('click', this.onRechargeCupButtonClick);
+    this.$nav.addEventListener('click', this.onTabButtonClick);
+    this.$purchaseDrinkButtonContainer.addEventListener('click', this.onPurchaseDrinkButtonClick);
+    this.$rechargeDrinkButtonContainer.addEventListener('click', this.onRechargeButtonClick);
   }
 
-  onPurchaseTabClick = e => {
-    e.preventDefault();
-    this.showPurchaseCoffeeComponent();
-  };
-
-  onRechargeTabClick = e => {
-    e.preventDefault();
-    this.showRechargeMaterialComponent();
-  };
-
-  onPurchaseCoffeeButtonClick = e => {
+  onTabButtonClick = e => {
     e.preventDefault();
 
-    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateMaterialQuantity)()) {
-      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.SOLD_OUT_COFFEE);
-      return;
+    if (e.target.id === 'recharge-material-tab') {
+      this.showRechargeMaterialComponent();
     }
-    _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.buyCoffee();
-    this.serveCoffee();
-    this.showPurchasableCoffeeQuantity();
+
+    if (e.target.id === 'purchase-coffee-tab') {
+      this.showPurchaseCoffeeComponent();
+    }
   };
 
-  serveCoffee = () => {
-    (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_2__.showServeCoffee)();
-  };
-
-  onRechargeCoffeeBeanButtonClick = e => {
+  onPurchaseDrinkButtonClick = e => {
     e.preventDefault();
 
+    if (e.target.id === 'purchase-espresso-button') {
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateCoffeeMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.SOLD_OUT_COFFEE);
+        return;
+      }
+      _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.MENU_NAME.ESPRESSO);
+      (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_2__.showServeCoffee)('☕️');
+    }
+    if (e.target.id === 'purchase-americano-button') {
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateCoffeeMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.SOLD_OUT_AMERICANO);
+        return;
+      }
+      _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.MENU_NAME.AMERICANO);
+      (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_2__.showServeCoffee)('🥃');
+    }
+    if (e.target.id === 'purchase-cafe-latte-button') {
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateCafeLatteMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.SOLD_OUT_CAFE_LATTE);
+        return;
+      }
+      _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.MENU_NAME.CAFE_LATTE);
+      (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_2__.showServeCoffee)('🧋');
+    }
+    if (e.target.id === 'purchase-milk-button') {
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateMilkMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.SOLD_OUT_MILK);
+        return;
+      }
+      _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.MENU_NAME.MILK);
+      (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_2__.showServeCoffee)('🥛');
+    }
+    this.showPurchasableDrinkQuantity();
+  };
+
+  onRechargeButtonClick = e => {
+    e.preventDefault();
+    if (e.target.id === 'recharge-coffee-beans-button') {
+      this.onRechargeCoffeeBeanButtonClick();
+    }
+    if (e.target.id === 'recharge-milk-button') {
+      this.onRechargeMilkButtonClick();
+    }
+    if (e.target.id === 'recharge-cups-button') {
+      this.onRechargeCupButtonClick();
+    }
+    this.showNowMaterialQuantity();
+  };
+
+  onRechargeCoffeeBeanButtonClick = () => {
     const $rechargeCoffeeBeanInput = document.querySelector('#recharge-coffee-beans-input');
     const { valueAsNumber: coffeeBeanInputValue } = $rechargeCoffeeBeanInput;
     $rechargeCoffeeBeanInput.value = '';
@@ -779,12 +830,21 @@ class CoffeeMachineComponent {
     }
 
     _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeCoffeeBean(coffeeBeanInputValue);
-    this.showNowMaterialQuantity();
   };
 
-  onRechargeCupButtonClick = e => {
-    e.preventDefault();
+  onRechargeMilkButtonClick = () => {
+    const $rechargeMilkInput = document.querySelector('#recharge-milk-input');
+    const { valueAsNumber: milkInputValue } = $rechargeMilkInput;
+    $rechargeMilkInput.value = '';
 
+    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateMaterialInput)(milkInputValue)) {
+      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.INVALID_QUANTITY_INPUT);
+      return;
+    }
+    _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeMilk(milkInputValue);
+  };
+
+  onRechargeCupButtonClick = () => {
     const $rechargeCupInput = document.querySelector('#recharge-cups-input');
     const { valueAsNumber: cupInputValue } = $rechargeCupInput;
     $rechargeCupInput.value = '';
@@ -795,7 +855,6 @@ class CoffeeMachineComponent {
     }
 
     _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeCup(cupInputValue);
-    this.showNowMaterialQuantity();
   };
 }
 
@@ -814,20 +873,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "materialStore": () => (/* binding */ materialStore)
 /* harmony export */ });
+/* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
+
+
 const materialStore = {
   setMaterialStore(stuff) {
     localStorage.setItem('materialStore', JSON.stringify(stuff));
   },
   getMaterialStore() {
-    if (localStorage.getItem('materialStore')) {
-      return JSON.parse(localStorage.getItem('materialStore'));
-    }
-    return 0;
+    const item = localStorage.getItem('materialStore');
+    return item ? JSON.parse(item) : 0;
   },
-  buyCoffee() {
+  buyDrink(drinkName) {
     const existMaterial = this.getMaterialStore();
-    const { coffeeBean, cup } = existMaterial;
-    const newData = { coffeeBean: coffeeBean - 1, cup: cup - 1 };
+    let { coffeeBean, cup, milk } = existMaterial;
+    if (drinkName === _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MENU_NAME.ESPRESSO || drinkName === _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MENU_NAME.AMERICANO) {
+      coffeeBean -= 1;
+    }
+    if (drinkName === _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MENU_NAME.CAFE_LATTE) {
+      coffeeBean -= 1;
+      milk -= 1;
+    }
+    if (drinkName === _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MENU_NAME.MILK) {
+      milk -= 1;
+    }
+    const newData = { coffeeBean, cup: cup - 1, milk };
 
     this.setMaterialStore(newData);
   },
@@ -835,26 +905,40 @@ const materialStore = {
     const existMaterial = this.getMaterialStore();
 
     if (existMaterial === 0) {
-      const newData = { coffeeBean: coffeeBeanInputValue, cup: 0 };
+      const newData = { coffeeBean: coffeeBeanInputValue, cup: 0, milk: 0 };
       this.setMaterialStore(newData);
       return;
     }
-    const { coffeeBean, cup } = existMaterial;
+    const { coffeeBean, cup, milk } = existMaterial;
 
-    const newData = { coffeeBean: coffeeBeanInputValue + coffeeBean, cup: cup };
+    const newData = { coffeeBean: coffeeBeanInputValue + coffeeBean, cup: cup, milk: milk };
     this.setMaterialStore(newData);
   },
   rechargeCup(cupInputValue) {
     const existMaterial = this.getMaterialStore();
 
     if (existMaterial === 0) {
-      const newData = { coffeeBean: 0, cup: cupInputValue };
+      const newData = { coffeeBean: 0, cup: cupInputValue, milk: 0 };
       this.setMaterialStore(newData);
       return;
     }
-    const { coffeeBean, cup } = existMaterial;
+    const { coffeeBean, cup, milk } = existMaterial;
 
-    const newData = { coffeeBean: coffeeBean, cup: cup + cupInputValue };
+    const newData = { coffeeBean: coffeeBean, cup: cup + cupInputValue, milk: milk };
+    this.setMaterialStore(newData);
+  },
+  rechargeMilk(milkInputValue) {
+    const existMaterial = this.getMaterialStore();
+
+    if (existMaterial === 0) {
+      const newData = { coffeeBean: 0, cup: 0, milk: milkInputValue };
+      this.setMaterialStore(newData);
+      return;
+    }
+
+    const { coffeeBean, cup, milk } = existMaterial;
+
+    const newData = { coffeeBean: coffeeBean, cup: cup, milk: milk + milkInputValue };
     this.setMaterialStore(newData);
   },
 };
@@ -871,17 +955,28 @@ const materialStore = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ERROR_MSG": () => (/* binding */ ERROR_MSG),
+/* harmony export */   "MENU_NAME": () => (/* binding */ MENU_NAME),
 /* harmony export */   "SERVE_COFFEE_DELAY_TIME": () => (/* binding */ SERVE_COFFEE_DELAY_TIME),
 /* harmony export */   "SHOW_SNACK_BAR_DELAY_TIME": () => (/* binding */ SHOW_SNACK_BAR_DELAY_TIME)
 /* harmony export */ });
 const ERROR_MSG = {
-  SOLD_OUT_COFFEE: '재료가 부족하여 커피를 제조할 수 없습니다',
+  SOLD_OUT_ESPRESSO: '재료가 부족하여 에스프레소를 제조할 수 없습니다',
+  SOLD_OUT_AMERICANO: '재료가 부족하여 아메리카노를 제조할 수 없습니다',
+  SOLD_OUT_CAFE_LATTE: '재료가 부족하여 카페라떼를 제조할 수 없습니다',
+  SOLD_OUT_MILK: '재료가 부족하여 우유를 제조할 수 없습니다',
   INVALID_QUANTITY_INPUT: '0이상, 소수점이 아닌 숫자를 입력해 주세요',
 };
 
 const SERVE_COFFEE_DELAY_TIME = 3000;
 
 const SHOW_SNACK_BAR_DELAY_TIME = 2000;
+
+const MENU_NAME = {
+  ESPRESSO: 'espresso',
+  AMERICANO: 'americano',
+  CAFE_LATTE: 'cafeLatte',
+  MILK: 'milk',
+};
 
 
 /***/ }),
@@ -902,10 +997,9 @@ __webpack_require__.r(__webpack_exports__);
 const serveCoffee = () => {
   const $coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
   let isExistCoffee = null;
-
-  return () => {
+  return drinkName => {
     if (isExistCoffee) return;
-    $coffeeDispenserContainer.textContent = '☕️';
+    $coffeeDispenserContainer.textContent = drinkName;
 
     isExistCoffee = setTimeout(() => {
       $coffeeDispenserContainer.textContent = '';
@@ -963,13 +1057,15 @@ const showSnackBar = snackBar();
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "validateCafeLatteMaterialQuantity": () => (/* binding */ validateCafeLatteMaterialQuantity),
+/* harmony export */   "validateCoffeeMaterialQuantity": () => (/* binding */ validateCoffeeMaterialQuantity),
 /* harmony export */   "validateMaterialInput": () => (/* binding */ validateMaterialInput),
-/* harmony export */   "validateMaterialQuantity": () => (/* binding */ validateMaterialQuantity)
+/* harmony export */   "validateMilkMaterialQuantity": () => (/* binding */ validateMilkMaterialQuantity)
 /* harmony export */ });
 /* harmony import */ var _store_materialStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/materialStore */ "./src/store/materialStore.js");
 
 
-const validateMaterialQuantity = () => {
+const validateCoffeeMaterialQuantity = () => {
   const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
   if (materials === 0) {
     return false;
@@ -982,14 +1078,36 @@ const validateMaterialQuantity = () => {
   return true;
 };
 
-const validateMaterialInput = userInput => {
-  if (userInput < 0) {
+const validateCafeLatteMaterialQuantity = () => {
+  const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
+  if (materials === 0) {
     return false;
   }
-  if (!Number.isInteger(userInput)) {
+
+  const { coffeeBean, milk, cup } = materials;
+
+  if (coffeeBean === 0 || cup === 0 || milk === 0) {
     return false;
   }
   return true;
+};
+
+const validateMilkMaterialQuantity = () => {
+  const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
+  if (materials === 0) {
+    return false;
+  }
+
+  const { milk, cup } = materials;
+
+  if (cup === 0 || milk === 0) {
+    return false;
+  }
+  return true;
+};
+
+const validateMaterialInput = userInput => {
+  return userInput > 0 && Number.isInteger(userInput);
 };
 
 
