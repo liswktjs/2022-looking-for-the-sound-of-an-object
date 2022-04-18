@@ -24,7 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_color_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "button {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/button.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB","sourcesContent":["@import url(color.css);\n\nbutton {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "button {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.return-button {\n  border: 1px solid #fff;\n  border-radius: 30px;\n  padding: 10px;\n  width: 60px;\n  height: 60px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/button.css"],"names":[],"mappings":"AAEA;EACE,eAAe;EACf,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,sDAAsD;AACxD;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;EACb,WAAW;EACX,YAAY;AACd","sourcesContent":["@import url(color.css);\n\nbutton {\n  font-size: 16px;\n  border-radius: 4px;\n  padding: 2px;\n}\n\nbutton:hover {\n  background-color: var(--button-hover-background-color);\n}\n\nbutton.is-active {\n  background-color: var(--button-hover-background-color);\n}\n\n.tab-button {\n  width: 150px;\n  height: 33px;\n  border: 1px solid #fff;\n  margin-right: 10px;\n}\n\n.purchase-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.recharge-button {\n  width: 100px;\n  height: 33px;\n  border: 1px solid #fff;\n}\n\n.return-button {\n  border: 1px solid #fff;\n  border-radius: 30px;\n  padding: 10px;\n  width: 60px;\n  height: 60px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -114,7 +114,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.charge-coin-container {\n  margin: 20px auto;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.total-charge-coin-container {\n  margin-bottom: 20px;\n}\n\n.charge-input {\n  width: 200px;\n  padding: 7px;\n  border: 1px solid #111;\n  border-radius: 4px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/purchase.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,gBAAgB;AAClB","sourcesContent":[".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.charge-coin-container {\n  margin: 20px auto;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.total-charge-coin-container {\n  margin-bottom: 20px;\n}\n\n.charge-input {\n  width: 200px;\n  padding: 7px;\n  border: 1px solid #111;\n  border-radius: 4px;\n}\n\n.coffee-dispenser {\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.charge-coin-container {\n  margin: 20px auto;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.total-charge-coin-container {\n  margin-bottom: 20px;\n}\n\n.charge-input {\n  width: 200px;\n  padding: 7px;\n  border: 1px solid #111;\n  border-radius: 4px;\n}\n\n.coffee-dispenser {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n\n.step-container {\n  display: flex;\n  justify-content: center;\n  width: 120px;\n  height: fit-content;\n  font-size: 16px;\n\n  padding: 3px;\n  border: none;\n  border-radius: 4px;\n  background-color: var(--snackbar-background-color);\n  margin-bottom: 4px;\n}\n\n#take-drink-button {\n  width: 130px;\n  height: fit-content;\n  padding: 4px;\n  margin-top: 10px;\n  border: none;\n  border-radius: 4px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/purchase.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,iBAAiB;AACnB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,uBAAuB;EACvB,kBAAkB;;EAElB,YAAY;EACZ,aAAa;EACb,sBAAsB;EACtB,gBAAgB;AAClB;;AAEA;EACE,aAAa;EACb,uBAAuB;EACvB,YAAY;EACZ,mBAAmB;EACnB,eAAe;;EAEf,YAAY;EACZ,YAAY;EACZ,kBAAkB;EAClB,kDAAkD;EAClD,kBAAkB;AACpB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,YAAY;EACZ,gBAAgB;EAChB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":[".purchase-drink-quantity-container {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.charge-coin-container {\n  margin: 20px auto;\n}\n\n.purchase-drink-container {\n  margin-bottom: 20px;\n}\n\n.total-charge-coin-container {\n  margin-bottom: 20px;\n}\n\n.charge-input {\n  width: 200px;\n  padding: 7px;\n  border: 1px solid #111;\n  border-radius: 4px;\n}\n\n.coffee-dispenser {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  text-align: center;\n\n  width: 150px;\n  height: 150px;\n  border: 1px solid #111;\n  font-size: 150px;\n}\n\n.step-container {\n  display: flex;\n  justify-content: center;\n  width: 120px;\n  height: fit-content;\n  font-size: 16px;\n\n  padding: 3px;\n  border: none;\n  border-radius: 4px;\n  background-color: var(--snackbar-background-color);\n  margin-bottom: 4px;\n}\n\n#take-drink-button {\n  width: 130px;\n  height: fit-content;\n  padding: 4px;\n  margin-top: 10px;\n  border: none;\n  border-radius: 4px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/recharge.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,yBAAyB;EACzB,gBAAgB;EAChB,2BAA2B;EAC3B,4BAA4B;EAC5B,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB","sourcesContent":[".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n\n.charge-return-container {\n  display: flex;\n  flex-direction: row;\n  margin-top: 20px;\n}\n\n#total-charge-return {\n  width: 100px;\n  height: 20px;\n  padding: 4px;\n  border: 1px solid #111;\n  border-radius: 4px;\n  margin-top: 15px;\n  margin-left: 10px;\n}\n", "",{"version":3,"sources":["webpack://./src/styles/recharge.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;AACrB;;AAEA;EACE,yBAAyB;EACzB,gBAAgB;EAChB,2BAA2B;EAC3B,4BAA4B;EAC5B,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,0BAA0B;EAC1B,6BAA6B;AAC/B;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;AAClB;;AAEA;EACE,cAAc;EACd,WAAW;AACb;;AAEA;EACE,mBAAmB;AACrB;;AAEA;EACE,YAAY;EACZ,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,gBAAgB;AAClB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;AACnB","sourcesContent":[".now-material-title {\n  font-size: 18px;\n  font-weight: bold;\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.now-material-quantity-table {\n  border-collapse: collapse;\n  min-width: 200px;\n  border-left: 1px solid #111;\n  border-right: 1px solid #111;\n  border-radius: 4px;\n  margin-bottom: 20px;\n}\n\ntr {\n  border-top: 1px solid #111;\n  border-bottom: 1px solid #111;\n}\n\ntd {\n  text-align: center;\n  min-width: 100px;\n}\n\nlabel {\n  display: block;\n  width: 50px;\n}\n\n.recharge-input-container {\n  margin-bottom: 10px;\n}\n\n.recharge-input {\n  width: 300px;\n  height: fit-content;\n  padding: 4px;\n  margin-right: 10px;\n}\n\n.charge-return-container {\n  display: flex;\n  flex-direction: row;\n  margin-top: 20px;\n}\n\n#total-charge-return {\n  width: 100px;\n  height: 20px;\n  padding: 4px;\n  border: 1px solid #111;\n  border-radius: 4px;\n  margin-top: 15px;\n  margin-left: 10px;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -663,9 +663,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store_Drink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/Drink */ "./src/store/Drink.js");
 /* harmony import */ var _store_materialStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store/materialStore */ "./src/store/materialStore.js");
 /* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
-/* harmony import */ var _utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/showServeCoffee */ "./src/utils/showServeCoffee.js");
+/* harmony import */ var _utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/showServeDrink */ "./src/utils/showServeDrink.js");
 /* harmony import */ var _utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/showSnackBar */ "./src/utils/showSnackBar.js");
 /* harmony import */ var _utils_validations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/validations */ "./src/utils/validations.js");
+/* harmony import */ var _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./RechargeMaterialComponent */ "./src/components/RechargeMaterialComponent.js");
+
 
 
 
@@ -677,9 +679,10 @@ __webpack_require__.r(__webpack_exports__);
 class CoffeeMachineComponent {
   constructor() {
     this.initDOM();
+    this.rechargeComponent = new _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_7__["default"]();
+    this.drink = new _store_Drink__WEBPACK_IMPORTED_MODULE_1__["default"]();
     this.showPurchaseCoffeeComponent();
     this.bindEventListener();
-    this.drink = new _store_Drink__WEBPACK_IMPORTED_MODULE_1__["default"]();
   }
 
   initDOM() {
@@ -692,14 +695,14 @@ class CoffeeMachineComponent {
     this.$purchaseDrinkButtonContainer = document.querySelector('.purchase-drink-container');
     this.$purchasableDrinkQuantity = document.querySelectorAll('.drink-quantity');
     this.$purchaseButtons = document.querySelectorAll('.purchase-button');
+    this.$coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
+    this.$takeDrinkButton = document.querySelector('#take-drink-button');
 
-    this.$coffeeBeanQuantityElement = document.querySelector('#coffee-beans-quantity');
-    this.$cupQuantityElement = document.querySelector('#cups-quantity');
-    this.$milkQuantityElement = document.querySelector('#milk-quantity');
-
-    this.$rechargeDrinkButtonContainer = document.querySelector('.recharge-drink-container');
     this.$totalChargeCoinElement = document.querySelector('#total-charge-coin');
     this.$chargeCoinButton = document.querySelector('#charge-coin-submit');
+
+    this.$returnChargeButton = document.querySelector('#charge-return-button');
+    this.$returnCoinElement = document.querySelector('#total-charge-return');
   }
 
   showPurchasableDrinkQuantity() {
@@ -710,18 +713,6 @@ class CoffeeMachineComponent {
       this.$purchasableDrinkQuantity.forEach((item, index) => {
         item.textContent = purchaseDrinkQuantity[index];
       });
-    }
-  }
-
-  showNowMaterialQuantity() {
-    const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.getMaterialStore();
-
-    if (materials !== 0) {
-      const { coffeeBean, cup, milk } = materials;
-
-      this.$coffeeBeanQuantityElement.textContent = coffeeBean;
-      this.$cupQuantityElement.textContent = cup;
-      this.$milkQuantityElement.textContent = milk;
     }
   }
 
@@ -743,14 +734,15 @@ class CoffeeMachineComponent {
     this.$rechargeTab.classList.add('is-active');
     this.$purchaseTab.classList.remove('is-active');
 
-    this.showNowMaterialQuantity();
+    this.rechargeComponent.showNowMaterialQuantity();
   }
 
   bindEventListener() {
     this.$nav.addEventListener('click', this.onNavButtonClick);
     this.$purchaseDrinkButtonContainer.addEventListener('click', this.onPurchaseDrinkButtonClick);
-    this.$rechargeDrinkButtonContainer.addEventListener('click', this.onRechargeButtonClick);
     this.$chargeCoinButton.addEventListener('click', this.onChargeCoinButtonClick);
+    this.$returnChargeButton.addEventListener('click', this.onReturnChargeButtonClick);
+    this.$takeDrinkButton.addEventListener('click', this.onTakeDrinkButtonClick);
   }
 
   onNavButtonClick = e => {
@@ -774,9 +766,10 @@ class CoffeeMachineComponent {
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO))) {
+        this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO);
-        (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_4__.showServeCoffee)('☕️');
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)('에스프레소가 나왔습니다');
+        const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-americano-button') {
@@ -785,9 +778,10 @@ class CoffeeMachineComponent {
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO))) {
+        this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO);
-        (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_4__.showServeCoffee)('🥃');
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)('아메리카노가 나왔습니다');
+        const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-cafe-latte-button') {
@@ -796,9 +790,10 @@ class CoffeeMachineComponent {
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE))) {
+        this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE);
-        (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_4__.showServeCoffee)('🧋');
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)('카페라떼가 나왔습니다');
+        const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-milk-button') {
@@ -807,66 +802,15 @@ class CoffeeMachineComponent {
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK))) {
+        this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK);
-        (0,_utils_showServeCoffee__WEBPACK_IMPORTED_MODULE_4__.showServeCoffee)('🥛');
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)('우유가 나왔습니다');
+        const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
       }
     }
     this.showPurchasableDrinkQuantity();
     this.activePurchaseMenuButton();
     this.showTotalChargeCoin();
-  };
-
-  onRechargeButtonClick = e => {
-    e.preventDefault();
-    if (e.target.id === 'recharge-coffee-beans-button') {
-      this.onRechargeCoffeeBeanButtonClick();
-    }
-    if (e.target.id === 'recharge-milk-button') {
-      this.onRechargeMilkButtonClick();
-    }
-    if (e.target.id === 'recharge-cups-button') {
-      this.onRechargeCupButtonClick();
-    }
-    this.showNowMaterialQuantity();
-  };
-
-  onRechargeCoffeeBeanButtonClick = () => {
-    const $rechargeCoffeeBeanInput = document.querySelector('#recharge-coffee-beans-input');
-    const { valueAsNumber: coffeeBeanInputValue } = $rechargeCoffeeBeanInput;
-    $rechargeCoffeeBeanInput.value = '';
-
-    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateMaterialInput)(coffeeBeanInputValue)) {
-      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.INVALID_QUANTITY_INPUT);
-      return;
-    }
-
-    _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.rechargeCoffeeBean(coffeeBeanInputValue);
-  };
-
-  onRechargeMilkButtonClick = () => {
-    const $rechargeMilkInput = document.querySelector('#recharge-milk-input');
-    const { valueAsNumber: milkInputValue } = $rechargeMilkInput;
-    $rechargeMilkInput.value = '';
-
-    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateMaterialInput)(milkInputValue)) {
-      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.INVALID_QUANTITY_INPUT);
-      return;
-    }
-    _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.rechargeMilk(milkInputValue);
-  };
-
-  onRechargeCupButtonClick = () => {
-    const $rechargeCupInput = document.querySelector('#recharge-cups-input');
-    const { valueAsNumber: cupInputValue } = $rechargeCupInput;
-    $rechargeCupInput.value = '';
-
-    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateMaterialInput)(cupInputValue)) {
-      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.INVALID_QUANTITY_INPUT);
-      return;
-    }
-
-    _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.rechargeCup(cupInputValue);
   };
 
   onChargeCoinButtonClick = e => {
@@ -884,6 +828,12 @@ class CoffeeMachineComponent {
     this.showTotalChargeCoin();
   };
 
+  onTakeDrinkButtonClick = e => {
+    e.preventDefault();
+    const $coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
+    $coffeeDispenserContainer.replaceChildren('');
+  };
+
   showTotalChargeCoin = () => {
     const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
     this.$totalChargeCoinElement.textContent = totalCoin;
@@ -893,18 +843,136 @@ class CoffeeMachineComponent {
     const menuNames = this.drink.getPurchaseableDrinkName();
     this.$purchaseButtons.forEach(item => {
       item.classList.remove('is-active');
+      if (menuNames.includes(item.dataset.menuName)) {
+        item.classList.add('is-active');
+      }
     });
-    if (menuNames.length !== 0) {
-      this.$purchaseButtons.forEach(item => {
-        if (menuNames.find(name => name === item.dataset.menuName)) {
-          item.classList.add('is-active');
-        }
-      });
-    }
+  };
+
+  onReturnChargeButtonClick = e => {
+    e.preventDefault();
+    const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
+    this.$returnCoinElement.textContent = totalCoin;
+
+    _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.setCoinStore(0);
+    this.showTotalChargeCoin();
+  };
+
+  makeButtonsDisable = () => {
+    document.querySelectorAll('button').forEach(btn => {
+      btn.disabled = true;
+    });
   };
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CoffeeMachineComponent);
+
+
+/***/ }),
+
+/***/ "./src/components/RechargeMaterialComponent.js":
+/*!*****************************************************!*\
+  !*** ./src/components/RechargeMaterialComponent.js ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _store_materialStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/materialStore */ "./src/store/materialStore.js");
+/* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
+/* harmony import */ var _utils_showSnackBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/showSnackBar */ "./src/utils/showSnackBar.js");
+/* harmony import */ var _utils_validations__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/validations */ "./src/utils/validations.js");
+
+
+
+
+class RechargeMaterialComponent {
+  constructor() {
+    this.initDOM();
+    this.bindEventListener();
+  }
+
+  initDOM() {
+    this.$coffeeBeanQuantityElement = document.querySelector('#coffee-beans-quantity');
+    this.$cupQuantityElement = document.querySelector('#cups-quantity');
+    this.$milkQuantityElement = document.querySelector('#milk-quantity');
+    this.$rechargeDrinkButtonContainer = document.querySelector('.recharge-drink-container');
+    this.$totalChargeCoinElement = document.querySelector('#total-charge-coin');
+    this.$chargeCoinButton = document.querySelector('#charge-coin-submit');
+  }
+
+  bindEventListener() {
+    this.$rechargeDrinkButtonContainer.addEventListener('click', this.onRechargeButtonClick);
+  }
+  display() {}
+  hidden() {}
+  onRechargeButtonClick = e => {
+    e.preventDefault();
+    if (e.target.id === 'recharge-coffee-beans-button') {
+      this.onRechargeCoffeeBeanButtonClick();
+    }
+    if (e.target.id === 'recharge-milk-button') {
+      this.onRechargeMilkButtonClick();
+    }
+    if (e.target.id === 'recharge-cups-button') {
+      this.onRechargeCupButtonClick();
+    }
+    this.showNowMaterialQuantity();
+  };
+
+  showNowMaterialQuantity() {
+    const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.getMaterialStore();
+
+    if (materials !== 0) {
+      const { coffeeBean, cup, milk } = materials;
+
+      this.$coffeeBeanQuantityElement.textContent = coffeeBean;
+      this.$cupQuantityElement.textContent = cup;
+      this.$milkQuantityElement.textContent = milk;
+    }
+  }
+
+  onRechargeCoffeeBeanButtonClick = () => {
+    const $rechargeCoffeeBeanInput = document.querySelector('#recharge-coffee-beans-input');
+    const { valueAsNumber: coffeeBeanInputValue } = $rechargeCoffeeBeanInput;
+    $rechargeCoffeeBeanInput.value = '';
+
+    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_3__.validateMaterialInput)(coffeeBeanInputValue)) {
+      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_2__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.INVALID_QUANTITY_INPUT);
+      return;
+    }
+
+    _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeCoffeeBean(coffeeBeanInputValue);
+  };
+
+  onRechargeMilkButtonClick = () => {
+    const $rechargeMilkInput = document.querySelector('#recharge-milk-input');
+    const { valueAsNumber: milkInputValue } = $rechargeMilkInput;
+    $rechargeMilkInput.value = '';
+
+    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_3__.validateMaterialInput)(milkInputValue)) {
+      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_2__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.INVALID_QUANTITY_INPUT);
+      return;
+    }
+    _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeMilk(milkInputValue);
+  };
+
+  onRechargeCupButtonClick = () => {
+    const $rechargeCupInput = document.querySelector('#recharge-cups-input');
+    const { valueAsNumber: cupInputValue } = $rechargeCupInput;
+    $rechargeCupInput.value = '';
+
+    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_3__.validateMaterialInput)(cupInputValue)) {
+      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_2__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.INVALID_QUANTITY_INPUT);
+      return;
+    }
+
+    _store_materialStore__WEBPACK_IMPORTED_MODULE_0__.materialStore.rechargeCup(cupInputValue);
+  };
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RechargeMaterialComponent);
 
 
 /***/ }),
@@ -933,49 +1001,62 @@ class Drink {
         name: 'espresso',
         material: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.COFFEE_BEAN, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.CUP],
         price: _utils_constants__WEBPACK_IMPORTED_MODULE_0__.DRINK_PRICE.ESPRESSO,
+        recipe: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BE_READY_CUP, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BREW_COFFEE, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.SERVE_DRINK],
       },
       americano: {
         name: 'americano',
         material: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.COFFEE_BEAN, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.CUP],
         price: _utils_constants__WEBPACK_IMPORTED_MODULE_0__.DRINK_PRICE.AMERICANO,
+        recipe: [
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BE_READY_CUP,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BREW_COFFEE,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.FILL_WITH_WATER,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.SERVE_DRINK,
+        ],
       },
       cafeLatte: {
         name: 'cafeLatte',
         material: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.COFFEE_BEAN, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.CUP, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.MILK],
         price: _utils_constants__WEBPACK_IMPORTED_MODULE_0__.DRINK_PRICE.CAFE_LATTE,
+        recipe: [
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BE_READY_CUP,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BREW_COFFEE,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.FILL_WITH_MILK,
+          _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.SERVE_DRINK,
+        ],
       },
       milk: {
         name: 'milk',
         material: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.CUP, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.MATERIAL_NAME.MILK],
         price: _utils_constants__WEBPACK_IMPORTED_MODULE_0__.DRINK_PRICE.MILK,
+        recipe: [_utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.BE_READY_CUP, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.FILL_WITH_MILK, _utils_constants__WEBPACK_IMPORTED_MODULE_0__.RECIPE.SERVE_DRINK],
       },
     };
   }
 
   getPurchasableDrinkQuantity() {
     const materials = _materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.getMaterialStore();
-    return Object.values(this.menu).map(item => Math.min(...item.material.map(m => materials[m])));
+    const getMin = material => Math.min(...material.map(m => materials[m]));
+    return Object.values(this.menu).map(item => getMin(item.material));
   }
 
   getPurchaseableDrinkName() {
     const totalCoin = _coinStore__WEBPACK_IMPORTED_MODULE_1__.coinStore.getCoinStore();
-    const menuNames = [];
-    Object.values(this.menu).forEach(item => {
+    return Object.values(this.menu).reduce((menuNames, item) => {
       if (totalCoin >= item.price) {
         menuNames.push(item.name);
       }
-    });
-    return menuNames;
+      return menuNames;
+    }, []);
   }
 
   getMenuPrice(menuName) {
-    let menuPrice = 0;
-    Object.values(this.menu).forEach(item => {
-      if (item.name === menuName) {
-        menuPrice = item.price;
-      }
-    });
-    return menuPrice;
+    const menu = Object.values(this.menu).find(item => item.name === menuName);
+    return menu.price;
+  }
+
+  getDrinkRecipe(menuName) {
+    return this.menu[menuName].recipe;
   }
 }
 
@@ -1118,6 +1199,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ERROR_MSG": () => (/* binding */ ERROR_MSG),
 /* harmony export */   "MATERIAL_NAME": () => (/* binding */ MATERIAL_NAME),
 /* harmony export */   "MENU_NAME": () => (/* binding */ MENU_NAME),
+/* harmony export */   "RECIPE": () => (/* binding */ RECIPE),
 /* harmony export */   "SERVE_COFFEE_DELAY_TIME": () => (/* binding */ SERVE_COFFEE_DELAY_TIME),
 /* harmony export */   "SHOW_SNACK_BAR_DELAY_TIME": () => (/* binding */ SHOW_SNACK_BAR_DELAY_TIME)
 /* harmony export */ });
@@ -1130,7 +1212,7 @@ const ERROR_MSG = {
   INVALID_CHARGE_COIN_INPUT: '0이상 100으로 나누어 떨어지는 수를 입력해 주세요',
 };
 
-const SERVE_COFFEE_DELAY_TIME = 3000;
+const SERVE_COFFEE_DELAY_TIME = 1000;
 
 const SHOW_SNACK_BAR_DELAY_TIME = 2000;
 
@@ -1154,38 +1236,58 @@ const DRINK_PRICE = {
   MILK: 1500,
 };
 
+const RECIPE = {
+  BE_READY_CUP: '컵을 준비합니다',
+  FILL_WITH_WATER: '물을 채웁니다',
+  FILL_WITH_MILK: '우유를 채웁니다',
+  BREW_COFFEE: '샷을 내립니다',
+  SERVE_DRINK: '음료가 제조되었습니다',
+};
+
 
 /***/ }),
 
-/***/ "./src/utils/showServeCoffee.js":
-/*!**************************************!*\
-  !*** ./src/utils/showServeCoffee.js ***!
-  \**************************************/
+/***/ "./src/utils/showServeDrink.js":
+/*!*************************************!*\
+  !*** ./src/utils/showServeDrink.js ***!
+  \*************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "showServeCoffee": () => (/* binding */ showServeCoffee)
+/* harmony export */   "showServeDrink": () => (/* binding */ showServeDrink)
 /* harmony export */ });
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./constants */ "./src/utils/constants.js");
+/* harmony import */ var _showSnackBar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./showSnackBar */ "./src/utils/showSnackBar.js");
 
 
-const serveCoffee = () => {
+
+const serveDrink = () => {
   const $coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
-  let isExistCoffee = null;
-  return drinkName => {
-    if (isExistCoffee) return;
-    $coffeeDispenserContainer.textContent = drinkName;
+  return recipeList => {
+    let count = 1;
+    const makingDrinkStepList = recipeList.map(step => {
+      const stepContainer = document.createElement('div');
+      stepContainer.className = 'step-container';
+      stepContainer.textContent = step;
+      return stepContainer;
+    });
 
-    isExistCoffee = setTimeout(() => {
-      $coffeeDispenserContainer.textContent = '';
-      clearTimeout(isExistCoffee);
-      isExistCoffee = null;
+    const makingCoffeeId = setInterval(() => {
+      if (count === recipeList.length) {
+        clearInterval(makingCoffeeId);
+        (0,_showSnackBar__WEBPACK_IMPORTED_MODULE_1__.showSnackBar)('음료가 나왔습니다');
+        document.querySelectorAll('button').forEach(item => {
+          item.disabled = false;
+        });
+      }
+      $coffeeDispenserContainer.appendChild(makingDrinkStepList.shift());
+      count += 1;
     }, _constants__WEBPACK_IMPORTED_MODULE_0__.SERVE_COFFEE_DELAY_TIME);
   };
 };
 
-const showServeCoffee = serveCoffee();
+const showServeDrink = serveDrink();
 
 
 /***/ }),
