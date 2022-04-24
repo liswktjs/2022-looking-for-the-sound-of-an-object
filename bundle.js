@@ -659,18 +659,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _store_coinStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/coinStore */ "./src/store/coinStore.js");
-/* harmony import */ var _store_Drink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/Drink */ "./src/store/Drink.js");
-/* harmony import */ var _store_materialStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store/materialStore */ "./src/store/materialStore.js");
-/* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
-/* harmony import */ var _utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/showServeDrink */ "./src/utils/showServeDrink.js");
-/* harmony import */ var _utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/showSnackBar */ "./src/utils/showSnackBar.js");
-/* harmony import */ var _utils_validations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/validations */ "./src/utils/validations.js");
-/* harmony import */ var _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./RechargeMaterialComponent */ "./src/components/RechargeMaterialComponent.js");
-
-
-
-
+/* harmony import */ var _utils_display__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/display */ "./src/utils/display.js");
+/* harmony import */ var _PurchaseComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PurchaseComponent */ "./src/components/PurchaseComponent.js");
+/* harmony import */ var _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./RechargeMaterialComponent */ "./src/components/RechargeMaterialComponent.js");
+/* harmony import */ var _RefundComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./RefundComponent */ "./src/components/RefundComponent.js");
 
 
 
@@ -679,8 +671,9 @@ __webpack_require__.r(__webpack_exports__);
 class CoffeeMachineComponent {
   constructor() {
     this.initDOM();
-    this.rechargeComponent = new _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_7__["default"]();
-    this.drink = new _store_Drink__WEBPACK_IMPORTED_MODULE_1__["default"]();
+    this.rechargeComponent = new _RechargeMaterialComponent__WEBPACK_IMPORTED_MODULE_2__["default"]();
+    this.purchaseComponent = new _PurchaseComponent__WEBPACK_IMPORTED_MODULE_1__["default"]();
+    this.refundComponent = new _RefundComponent__WEBPACK_IMPORTED_MODULE_3__["default"]();
     this.showPurchaseCoffeeComponent();
     this.bindEventListener();
   }
@@ -691,29 +684,6 @@ class CoffeeMachineComponent {
     this.$nav = document.querySelector('nav');
     this.$rechargeTab = document.querySelector('#recharge-material-tab');
     this.$purchaseTab = document.querySelector('#purchase-coffee-tab');
-
-    this.$purchaseDrinkButtonContainer = document.querySelector('.purchase-drink-container');
-    this.$purchasableDrinkQuantity = document.querySelectorAll('.drink-quantity');
-    this.$purchaseButtons = document.querySelectorAll('.purchase-button');
-    this.$coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
-    this.$takeDrinkButton = document.querySelector('#take-drink-button');
-
-    this.$totalChargeCoinElement = document.querySelector('#total-charge-coin');
-    this.$chargeCoinButton = document.querySelector('#charge-coin-submit');
-
-    this.$returnChargeButton = document.querySelector('#charge-return-button');
-    this.$returnCoinElement = document.querySelector('#total-charge-return');
-  }
-
-  showPurchasableDrinkQuantity() {
-    const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.getMaterialStore();
-
-    if (materials !== 0) {
-      const purchaseDrinkQuantity = this.drink.getPurchasableDrinkQuantity();
-      this.$purchasableDrinkQuantity.forEach((item, index) => {
-        item.textContent = purchaseDrinkQuantity[index];
-      });
-    }
   }
 
   showPurchaseCoffeeComponent() {
@@ -723,8 +693,8 @@ class CoffeeMachineComponent {
     this.$purchaseTab.classList.add('is-active');
     this.$rechargeTab.classList.remove('is-active');
 
-    this.showPurchasableDrinkQuantity();
-    this.showTotalChargeCoin();
+    this.purchaseComponent.showPurchasableDrinkQuantity();
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_0__.showTotalChargeCoin)();
   }
 
   showRechargeMaterialComponent() {
@@ -739,10 +709,6 @@ class CoffeeMachineComponent {
 
   bindEventListener() {
     this.$nav.addEventListener('click', this.onNavButtonClick);
-    this.$purchaseDrinkButtonContainer.addEventListener('click', this.onPurchaseDrinkButtonClick);
-    this.$chargeCoinButton.addEventListener('click', this.onChargeCoinButtonClick);
-    this.$returnChargeButton.addEventListener('click', this.onReturnChargeButtonClick);
-    this.$takeDrinkButton.addEventListener('click', this.onTakeDrinkButtonClick);
   }
 
   onNavButtonClick = e => {
@@ -756,76 +722,131 @@ class CoffeeMachineComponent {
       this.showPurchaseCoffeeComponent();
     }
   };
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CoffeeMachineComponent);
+
+
+/***/ }),
+
+/***/ "./src/components/PurchaseComponent.js":
+/*!*********************************************!*\
+  !*** ./src/components/PurchaseComponent.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _store_coinStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/coinStore */ "./src/store/coinStore.js");
+/* harmony import */ var _store_Drink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/Drink */ "./src/store/Drink.js");
+/* harmony import */ var _store_materialStore__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store/materialStore */ "./src/store/materialStore.js");
+/* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
+/* harmony import */ var _utils_display__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/display */ "./src/utils/display.js");
+/* harmony import */ var _utils_showServeDrink__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../utils/showServeDrink */ "./src/utils/showServeDrink.js");
+/* harmony import */ var _utils_showSnackBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utils/showSnackBar */ "./src/utils/showSnackBar.js");
+/* harmony import */ var _utils_validations__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../utils/validations */ "./src/utils/validations.js");
+
+
+
+
+
+
+
+
+
+class PurchaseComponent {
+  constructor() {
+    this.initDOM();
+    this.drink = new _store_Drink__WEBPACK_IMPORTED_MODULE_1__["default"]();
+    this.bindEventListener();
+  }
+
+  initDOM() {
+    this.$purchaseDrinkButtonContainer = document.querySelector('.purchase-drink-container');
+    this.$purchasableDrinkQuantity = document.querySelectorAll('.drink-quantity');
+    this.$purchaseButtons = document.querySelectorAll('.purchase-button');
+    this.$coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
+    this.$takeDrinkButton = document.querySelector('#take-drink-button');
+  }
+
+  bindEventListener() {
+    this.$purchaseDrinkButtonContainer.addEventListener('click', this.onPurchaseDrinkButtonClick);
+    this.$takeDrinkButton.addEventListener('click', this.onTakeDrinkButtonClick);
+  }
 
   onPurchaseDrinkButtonClick = e => {
     e.preventDefault();
 
     if (e.target.id === 'purchase-espresso-button') {
-      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateCoffeeMaterialQuantity)()) {
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_ESPRESSO);
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_7__.validateCoffeeMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_6__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_ESPRESSO);
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO))) {
         this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO);
         const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.ESPRESSO);
-        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_5__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-americano-button') {
-      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateCoffeeMaterialQuantity)()) {
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_AMERICANO);
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_7__.validateCoffeeMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_6__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_AMERICANO);
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO))) {
         this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO);
         const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.AMERICANO);
-        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_5__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-cafe-latte-button') {
-      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateCafeLatteMaterialQuantity)()) {
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_CAFE_LATTE);
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_7__.validateCafeLatteMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_6__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_CAFE_LATTE);
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE))) {
         this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE);
         const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.CAFE_LATTE);
-        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_5__.showServeDrink)(recipeList);
       }
     }
     if (e.target.id === 'purchase-milk-button') {
-      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateMilkMaterialQuantity)()) {
-        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_MILK);
+      if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_7__.validateMilkMaterialQuantity)()) {
+        (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_6__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.SOLD_OUT_MILK);
         return;
       }
       if (_store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.buyDrink(this.drink.getMenuPrice(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK))) {
         this.makeButtonsDisable();
         _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.buyDrink(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK);
         const recipeList = this.drink.getDrinkRecipe(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.MENU_NAME.MILK);
-        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_4__.showServeDrink)(recipeList);
+        (0,_utils_showServeDrink__WEBPACK_IMPORTED_MODULE_5__.showServeDrink)(recipeList);
       }
     }
     this.showPurchasableDrinkQuantity();
-    this.activePurchaseMenuButton();
-    this.showTotalChargeCoin();
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_4__.activePurchaseMenuButton)();
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_4__.showTotalChargeCoin)();
   };
 
-  onChargeCoinButtonClick = e => {
-    e.preventDefault();
-    const $chargeCoinInput = document.querySelector('#charge-coin-input');
-    const { valueAsNumber: chargeCoinInputValue } = $chargeCoinInput;
-    $chargeCoinInput.value = '';
+  showPurchasableDrinkQuantity() {
+    const materials = _store_materialStore__WEBPACK_IMPORTED_MODULE_2__.materialStore.getMaterialStore();
 
-    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_6__.validateChargeCoinInput)(chargeCoinInputValue)) {
-      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_5__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MSG.INVALID_CHARGE_COIN_INPUT);
-      return;
+    if (materials !== 0) {
+      const purchaseDrinkQuantity = this.drink.getPurchasableDrinkQuantity();
+      this.$purchasableDrinkQuantity.forEach((item, index) => {
+        item.textContent = purchaseDrinkQuantity[index];
+      });
     }
-    _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.chargeCoins(chargeCoinInputValue);
-    this.activePurchaseMenuButton();
-    this.showTotalChargeCoin();
+  }
+
+  makeButtonsDisable = () => {
+    document.querySelectorAll('button').forEach(btn => {
+      btn.disabled = true;
+    });
   };
 
   onTakeDrinkButtonClick = e => {
@@ -833,39 +854,9 @@ class CoffeeMachineComponent {
     const $coffeeDispenserContainer = document.querySelector('.coffee-dispenser');
     $coffeeDispenserContainer.replaceChildren('');
   };
-
-  showTotalChargeCoin = () => {
-    const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
-    this.$totalChargeCoinElement.textContent = totalCoin;
-  };
-
-  activePurchaseMenuButton = () => {
-    const menuNames = this.drink.getPurchaseableDrinkName();
-    this.$purchaseButtons.forEach(item => {
-      item.classList.remove('is-active');
-      if (menuNames.includes(item.dataset.menuName)) {
-        item.classList.add('is-active');
-      }
-    });
-  };
-
-  onReturnChargeButtonClick = e => {
-    e.preventDefault();
-    const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
-    this.$returnCoinElement.textContent = totalCoin;
-
-    _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.setCoinStore(0);
-    this.showTotalChargeCoin();
-  };
-
-  makeButtonsDisable = () => {
-    document.querySelectorAll('button').forEach(btn => {
-      btn.disabled = true;
-    });
-  };
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CoffeeMachineComponent);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PurchaseComponent);
 
 
 /***/ }),
@@ -906,8 +897,6 @@ class RechargeMaterialComponent {
   bindEventListener() {
     this.$rechargeDrinkButtonContainer.addEventListener('click', this.onRechargeButtonClick);
   }
-  display() {}
-  hidden() {}
   onRechargeButtonClick = e => {
     e.preventDefault();
     if (e.target.id === 'recharge-coffee-beans-button') {
@@ -973,6 +962,79 @@ class RechargeMaterialComponent {
   };
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RechargeMaterialComponent);
+
+
+/***/ }),
+
+/***/ "./src/components/RefundComponent.js":
+/*!*******************************************!*\
+  !*** ./src/components/RefundComponent.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _store_coinStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/coinStore */ "./src/store/coinStore.js");
+/* harmony import */ var _utils_constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/constants */ "./src/utils/constants.js");
+/* harmony import */ var _utils_display__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/display */ "./src/utils/display.js");
+/* harmony import */ var _utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/showSnackBar */ "./src/utils/showSnackBar.js");
+/* harmony import */ var _utils_validations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utils/validations */ "./src/utils/validations.js");
+
+
+
+
+
+
+class RefundComponent {
+  constructor() {
+    this.initDOM();
+    this.bindEventListener();
+  }
+
+  initDOM() {
+    this.$totalChargeCoinElement = document.querySelector('#total-charge-coin');
+    this.$chargeCoinButton = document.querySelector('#charge-coin-submit');
+
+    this.$returnChargeButton = document.querySelector('#charge-return-button');
+    this.$returnCoinElement = document.querySelector('#total-charge-return');
+
+    this.$refundButton = document.querySelector('#refund-button');
+  }
+
+  bindEventListener() {
+    this.$chargeCoinButton.addEventListener('click', this.onChargeCoinButtonClick);
+    this.$returnChargeButton.addEventListener('click', this.onReturnChargeButtonClick);
+    this.$refundButton.addEventListener('click', this.onReturnChargeButtonClick);
+  }
+
+  onChargeCoinButtonClick = e => {
+    e.preventDefault();
+    const $chargeCoinInput = document.querySelector('#charge-coin-input');
+    const { valueAsNumber: chargeCoinInputValue } = $chargeCoinInput;
+    $chargeCoinInput.value = '';
+
+    if (!(0,_utils_validations__WEBPACK_IMPORTED_MODULE_4__.validateChargeCoinInput)(chargeCoinInputValue)) {
+      (0,_utils_showSnackBar__WEBPACK_IMPORTED_MODULE_3__.showSnackBar)(_utils_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MSG.INVALID_CHARGE_COIN_INPUT);
+      return;
+    }
+    _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.chargeCoins(chargeCoinInputValue);
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_2__.activePurchaseMenuButton)();
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_2__.showTotalChargeCoin)();
+  };
+
+  onReturnChargeButtonClick = e => {
+    e.preventDefault();
+    const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
+    this.$returnCoinElement.textContent = totalCoin;
+
+    _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.setCoinStore(0);
+    (0,_utils_display__WEBPACK_IMPORTED_MODULE_2__.showTotalChargeCoin)();
+  };
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (RefundComponent);
 
 
 /***/ }),
@@ -1247,6 +1309,50 @@ const RECIPE = {
 
 /***/ }),
 
+/***/ "./src/utils/display.js":
+/*!******************************!*\
+  !*** ./src/utils/display.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "activePurchaseMenuButton": () => (/* binding */ activePurchaseMenuButton),
+/* harmony export */   "makeButtonsDisable": () => (/* binding */ makeButtonsDisable),
+/* harmony export */   "showTotalChargeCoin": () => (/* binding */ showTotalChargeCoin)
+/* harmony export */ });
+/* harmony import */ var _store_coinStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../store/coinStore */ "./src/store/coinStore.js");
+/* harmony import */ var _store_Drink__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store/Drink */ "./src/store/Drink.js");
+
+
+
+const makeButtonsDisable = () => {
+  document.querySelectorAll('button').forEach(btn => {
+    btn.disabled = true;
+  });
+};
+
+const activePurchaseMenuButton = () => {
+  const drink = new _store_Drink__WEBPACK_IMPORTED_MODULE_1__["default"]();
+  const menuNames = drink.getPurchaseableDrinkName();
+  const $purchaseButtons = document.querySelectorAll('.purchase-button');
+  $purchaseButtons.forEach(item => {
+    item.classList.remove('is-active');
+    if (menuNames.includes(item.dataset.menuName)) {
+      item.classList.add('is-active');
+    }
+  });
+};
+
+const showTotalChargeCoin = () => {
+  const totalCoin = _store_coinStore__WEBPACK_IMPORTED_MODULE_0__.coinStore.getCoinStore();
+  const $totalChargeCoinElement = document.querySelector('#total-charge-coin');
+  $totalChargeCoinElement.textContent = totalCoin;
+};
+
+
+/***/ }),
+
 /***/ "./src/utils/showServeDrink.js":
 /*!*************************************!*\
   !*** ./src/utils/showServeDrink.js ***!
@@ -1475,9 +1581,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CoffeeMachineComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/CoffeeMachineComponent */ "./src/components/CoffeeMachineComponent.js");
 
 
-
-localStorage.clear();
-new _components_CoffeeMachineComponent__WEBPACK_IMPORTED_MODULE_1__["default"]();
+const coffeeMachine = new _components_CoffeeMachineComponent__WEBPACK_IMPORTED_MODULE_1__["default"]();
 
 })();
 
