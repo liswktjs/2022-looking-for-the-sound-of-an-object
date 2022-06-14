@@ -26,6 +26,8 @@ class RefundComponent {
     this.$refundButton.addEventListener('click', this.onReturnChargeButtonClick);
   }
 
+  show() {}
+
   onChargeCoinButtonClick = e => {
     e.preventDefault();
     const $chargeCoinInput = document.querySelector('#charge-coin-input');

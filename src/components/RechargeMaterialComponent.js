@@ -9,6 +9,8 @@ class RechargeMaterialComponent {
   }
 
   initDOM() {
+    this.$rechargeMaterial = document.querySelector('.recharge-material');
+    this.$rechargeTab = document.querySelector('#recharge-material-tab');
     this.$coffeeBeanQuantityElement = document.querySelector('#coffee-beans-quantity');
     this.$cupQuantityElement = document.querySelector('#cups-quantity');
     this.$milkQuantityElement = document.querySelector('#milk-quantity');
@@ -20,7 +22,17 @@ class RechargeMaterialComponent {
   bindEventListener() {
     this.$rechargeDrinkButtonContainer.addEventListener('click', this.onRechargeButtonClick);
   }
-  
+
+  show() {
+    this.$rechargeMaterial.classList.remove('hide');
+    this.$rechargeTab.classList.add('is-active');
+  }
+
+  hide() {
+    this.$rechargeMaterial.classList.add('hide');
+    this.$rechargeTab.classList.remove('is-active');
+  }
+
   onRechargeButtonClick = e => {
     e.preventDefault();
     if (e.target.id === 'recharge-coffee-beans-button') {

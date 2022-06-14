@@ -19,6 +19,8 @@ class PurchaseComponent {
   }
 
   initDOM() {
+    this.$purchaseDrink = document.querySelector('.purchase-drink');
+    this.$purchaseTab = document.querySelector('#purchase-coffee-tab');
     this.$purchaseDrinkButtonContainer = document.querySelector('.purchase-drink-container');
     this.$purchasableDrinkQuantity = document.querySelectorAll('.drink-quantity');
     this.$purchaseButtons = document.querySelectorAll('.purchase-button');
@@ -29,6 +31,16 @@ class PurchaseComponent {
   bindEventListener() {
     this.$purchaseDrinkButtonContainer.addEventListener('click', this.onPurchaseDrinkButtonClick);
     this.$takeDrinkButton.addEventListener('click', this.onTakeDrinkButtonClick);
+  }
+
+  show() {
+    this.$purchaseDrink.classList.remove('hide');
+    this.$purchaseTab.classList.add('is-active');
+  }
+
+  hide() {
+    this.$purchaseDrink.classList.add('hide');
+    this.$purchaseTab.classList.remove('is-active');
   }
 
   onPurchaseDrinkButtonClick = e => {
