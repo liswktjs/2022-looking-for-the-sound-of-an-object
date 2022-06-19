@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.579630c7.css",
-    "main.js": "./static/js/main.11905545.js",
-    "static/media/GmarketSansTTFLight.ttf": "./static/media/GmarketSansTTFLight.efaa8f19ead1555b1c39.ttf",
-    "index.html": "./index.html",
-    "main.579630c7.css.map": "./static/css/main.579630c7.css.map",
-    "main.11905545.js.map": "./static/js/main.11905545.js.map"
+    "main.css": "/2022-looking-for-the-sound-of-an-object/static/css/main.3118e475.css",
+    "main.js": "/2022-looking-for-the-sound-of-an-object/static/js/main.c169a3f6.js",
+    "static/media/GmarketSansTTFLight.ttf": "/2022-looking-for-the-sound-of-an-object/static/media/GmarketSansTTFLight.efaa8f19ead1555b1c39.ttf",
+    "index.html": "/2022-looking-for-the-sound-of-an-object/index.html",
+    "main.3118e475.css.map": "/2022-looking-for-the-sound-of-an-object/static/css/main.3118e475.css.map",
+    "main.c169a3f6.js.map": "/2022-looking-for-the-sound-of-an-object/static/js/main.c169a3f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.579630c7.css",
-    "static/js/main.11905545.js"
+    "static/css/main.3118e475.css",
+    "static/js/main.c169a3f6.js"
   ]
 }
