@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/2022-looking-for-the-sound-of-an-object/static/css/main.3118e475.css",
-    "main.js": "/2022-looking-for-the-sound-of-an-object/static/js/main.c169a3f6.js",
+    "main.js": "/2022-looking-for-the-sound-of-an-object/static/js/main.50a82126.js",
     "static/media/GmarketSansTTFLight.ttf": "/2022-looking-for-the-sound-of-an-object/static/media/GmarketSansTTFLight.efaa8f19ead1555b1c39.ttf",
     "index.html": "/2022-looking-for-the-sound-of-an-object/index.html",
     "main.3118e475.css.map": "/2022-looking-for-the-sound-of-an-object/static/css/main.3118e475.css.map",
-    "main.c169a3f6.js.map": "/2022-looking-for-the-sound-of-an-object/static/js/main.c169a3f6.js.map"
+    "main.50a82126.js.map": "/2022-looking-for-the-sound-of-an-object/static/js/main.50a82126.js.map"
   },
   "entrypoints": [
     "static/css/main.3118e475.css",
-    "static/js/main.c169a3f6.js"
+    "static/js/main.50a82126.js"
   ]
 }
